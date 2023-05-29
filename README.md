@@ -1,6 +1,6 @@
 # ClientsHub - API
 
-Este é o backend da aplicação ClientsHub - Um site gerenciamento de clientes e seus contatos
+Este é o backend da aplicação ClientsHub - Um site para gerenciamento de clientes e seus contatos
 
 ## Iniciando a api
 
