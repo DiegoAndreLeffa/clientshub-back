@@ -6,6 +6,7 @@ import {
   TUser,
   TUserReturn,
   TUserReturnNotPassword,
+  Login,
 } from "./client/client.inteface";
 
 import {
@@ -27,4 +28,5 @@ export {
   TContactReturn,
   TContactReturnAll,
   TContactUpdate,
+  Login,
 };
