@@ -13,6 +13,9 @@ import {
   deleteContactsController,
 } from "./contacts/contacts.controllers";
 
+import { createUserController } from "./user/user.controller";
+
+import { loginController } from "./login/login.controller";
 export {
   postClientController,
   getClientController,
@@ -23,4 +26,6 @@ export {
   getContactsController,
   patchContactsController,
   deleteContactsController,
+  createUserController,
+  loginController,
 };

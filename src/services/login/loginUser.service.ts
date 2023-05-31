@@ -1,9 +1,13 @@
 import { Repository } from "typeorm";
-import { User } from "../../entities";
-import { Login } from "../../interfaces/client/client.inteface";
 import { AppDataSource } from "../../data-source";
-import { AppError } from "../../errors";
 import { compare } from "bcryptjs";
+
+import { User } from "../../entities";
+
+import { AppError } from "../../errors";
+
+import { Login } from "../../interfaces";
+
 import jwt from "jsonwebtoken";
 
 export const createLoginService = async (loginData: Login): Promise<string> => {

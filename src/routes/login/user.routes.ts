@@ -1,8 +1,8 @@
 import { Router } from "express";
 
-import { loginController } from "../../controllers/login/login.controller";
 import { createLoginSchema } from "../../schemas/clients/client.schema";
 import { validatedData } from "../../middlewares/validatedData.middlewares";
+import { loginController } from "../../controllers";
 
 export const loginRouter: Router = Router();
 

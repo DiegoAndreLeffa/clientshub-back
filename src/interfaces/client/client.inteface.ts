@@ -8,7 +8,6 @@ import {
   returnAllClientSchema,
   createUserSchema,
   returnCreateUserSchema,
-  returnCreateSchemaNotPassword,
 } from "../../schemas";
 import {
   createLoginSchema,

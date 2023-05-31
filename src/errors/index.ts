@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { ZodError } from "zod";
 
-class AppError extends Error {
+export class AppError extends Error {
   message: string;
   statusCode: number;
 
@@ -12,7 +12,7 @@ class AppError extends Error {
   }
 }
 
-const handleErrors = (
+export const handleErrors = (
   error: Error,
   request: Request,
   response: Response,
@@ -35,5 +35,3 @@ const handleErrors = (
     message: "Internal server error",
   });
 };
-
-export { AppError, handleErrors };
